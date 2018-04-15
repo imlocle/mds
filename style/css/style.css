@@ -18,15 +18,12 @@ body{
 section.module.parallax-1 {
     background-image: url("../images/william-iven-22449-unsplash.jpg");
     background-color: white;
-}
-
-section.module.parallax-1 {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: white;
 }
+
 section.module.parallax-1 h1 {
     color: rgba(255, 255, 255, 0.8);
     letter-spacing: 10px;
@@ -39,7 +36,34 @@ section.module.parallax-1 h1 {
     color: white;
 }
 
-#icon {
-    margin-left: auto;
-    margin-right: auto;
+section.module.parallax-2 {
+    background-image: url("../images/charts-computer-data-669615.jpg");
+    background-color: white;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.module.parallax-2 h1 {
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 0;
+    letter-spacing: 10px;
+    font-size: 75px;
+    line-height: 300px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+section.module.parallax-2 p{
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+section.module.content-2{
+    background-color: #353535;
+    color: white;
 }

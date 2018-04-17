@@ -2,19 +2,6 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
-#center-headliner{
-   /* border: solid black 1px;*/
-    /* text-align: center; */
-}
-
-#left-test{
-   /* border: solid black 1px;*/
-}
-
-#right-test{
-   /* border: solid black 1px;*/
-}
-
 section.module.parallax-1 {
     background-image: url("../images/william-iven-22449-unsplash.jpg");
     background-color: white;

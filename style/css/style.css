@@ -2,18 +2,17 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
-section.module.parallax-1 {
-    background-image: url("../images/home_arch.jpg");
+/* section.module.parallax-1 {
     background-color: white;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-size: cover;
     height: 250px;
-    /* align-content: center; */
-}
+    align-content: center;
+} */
 
-section.module.parallax-1 h1 {
+/* section.module.parallax-1 h1 {
     color: rgba(255, 255, 255, 0.8);
     letter-spacing: 10px;
     font-size: 75px;
@@ -23,7 +22,7 @@ section.module.parallax-1 h1 {
     text-transform: uppercase;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
     color: white;
-}
+} */
 
 section.module.parallax-2 {
     background-image: url("../images/charts-computer-data-669615.jpg");
@@ -53,7 +52,7 @@ section.module.parallax-2 p{
 }
 
 section.module.content-2{
-    background-color: #fffafa;
+    background-color: #F8F9FA;
     color: black;
 }
 

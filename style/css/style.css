@@ -3,12 +3,14 @@ body{
 }
 
 section.module.parallax-1 {
-    background-image: url("../images/william-iven-22449-unsplash.jpg");
+    background-image: url("../images/home_arch.jpg");
     background-color: white;
-    background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-position: 50% 50%;
+    /* background-attachment: fixed; */
     background-size: cover;
+    height: 250px;
+    /* align-content: center; */
 }
 
 section.module.parallax-1 h1 {
@@ -51,6 +53,20 @@ section.module.parallax-2 p{
 }
 
 section.module.content-2{
-    background-color: #353535;
-    color: white;
+    background-color: #fffafa;
+    color: black;
+}
+
+.video-wrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.video-wrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
